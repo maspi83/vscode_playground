@@ -1,0 +1,9 @@
+git init -b master
+git remote add origin https://github.com/maspi83/vscode_playground.git
+git config --global --add safe.directory /workspaces/VSCode
+git add .
+git commit -m "Initial commit" 
+git config --global user.email 
+git config --global user.name 
+git commit -m "Initial commit" 
+git push --set-upstream origin master --force
